@@ -1,1 +1,24 @@
-https://medium.com/@abinatmail/what-happens-when-you-type-a-google-com-and-press-enter-a71d73ba5e6f
+What happens when you type https://www.google.com in your browser and press Enter?
+
+This question is a classic and still widely used interview question for many types of software engineering positions. It is used to assess a candidate’s general knowledge of how the web stack works on top of the internet. For a front-end position, they may want you to talk at length about how the DOM is rendering. For an SRE position, they may want you to go into the load-balancing mechanism.
+
+Allow me to have a go at it. (Clears throat)
+When you type "https://www.google.com" into your browser and press Enter, a series of actions take place behind the scenes to eventually display the Google homepage on your screen.
+
+First, a Domain Name System (DNS) request is sent to convert the human-friendly domain name "www.google.com" into the machine-friendly IP address that identifies the server hosting the website. This request is handled by a DNS server, which returns the IP address associated with the domain name.
+
+Your browser connects to the server using the IP address to establish a Transmission Control Protocol/Internet Protocol (TCP/IP) connection after obtaining the IP address. To send and receive data between your computer and the server, this connection is necessary.
+
+A request from your browser is sent to the server after the connection has been established, and it is routed through any firewalls that may be in place to guard the server against unauthorized access. The load-balancer, which is in charge of dividing incoming traffic among several servers to balance the load and maintain the website's functionality, receives the request after it has been routed through the load-balancer.
+
+The request is routed to the web server, which is in charge of managing incoming HTTP requests and serving the appropriate content, presuming the request is legitimate.
+
+In the case of Google, it is likely that the requested webpage is dynamically created using data from a variety of sources, including user preferences, search history, and other personalization data.
+
+The requested webpage is then sent back from the web server to the browser, which displays it on your screen. You won't have to wait long to see the outcome because this process occurs quickly, in milliseconds.
+
+The HTTPS (HTTP Secure) and SSL (Secure Sockets Layer) protocols, which encrypt communication between the browser and the server to make sure that the data being sent and received is secure and protected from potential hackers, are an important part of this process.
+
+In short, entering "https://www.google.com" into your browser and pressing Enter triggers a series of processes involving DNS resolution, TCP/IP connection, firewall checks, load-balancing, web server handling, application server processing, and database retrieval, all of which work together to show the Google homepage on your screen.
+How did I do?
+#interviewpreparation #softwareengineering
