@@ -1,0 +1,2 @@
+An incident report in software engineering (SWE) is a document that provides a detailed account of a specific incident that has occurred within a software system, application, or infrastructure. The report typically includes information about the incident, such as the date and time it occurred, the symptoms, and the impact it had on users and the business. It also describes the root cause of the incident, the actions taken to resolve it, and any steps taken to prevent it from occurring again in the future.
+
